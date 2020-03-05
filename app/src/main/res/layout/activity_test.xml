@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:background="#300e69"
+    android:fadeScrollbars="false"
+    android:fillViewport="true"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbarStyle="insideOverlay"
+    android:scrollbars="vertical"
+    tools:orientation="vertical"
+    tools:scrollbarFadeDuration="0"
+    tools:style="@android:style/Widget.ScrollView"
+    tools:verticalScrollbarPosition="right">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="700dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:fitsSystemWindows="false"
+        android:scrollbars="vertical"
+        android:transitionGroup="false">
+
+        <TextView
+            android:id="@+id/q1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.Which of the following are used in app development of android?"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium"
+            android:textColor="@android:color/holo_green_light"
+            android:textStyle="bold|italic" />
+
+        <CheckBox
+            android:id="@+id/q1a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="56dp"
+            android:buttonTint="@android:color/holo_red_light"
+            android:text="Java"
+            android:textColor="@android:color/white" />
+
+        <CheckBox
+            android:id="@+id/q1b"
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/q1a"
+            android:layout_marginStart="83dp"
+            android:buttonTint="@android:color/holo_red_light"
+            android:text="HTML"
+            android:textColor="@android:color/white" />
+
+        <CheckBox
+            android:id="@+id/q1c"
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/q3"
+            android:layout_alignTop="@+id/q1a"
+            android:buttonTint="@android:color/holo_red_light"
+            android:text="Python"
+            android:textColor="@android:color/white" />
+
+        <CheckBox
+            android:id="@+id/q1d"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/q2"
+            android:layout_alignTop="@+id/q1a"
+            android:buttonTint="@android:color/holo_red_light"
+            android:text="XML"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/q2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="107dp"
+            android:text="2.Which of the following types of layouts exist?"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium"
+            android:textColor="@android:color/holo_green_light"
+            android:textStyle="bold|italic" />
+
+        <CheckBox
+            android:id="@+id/q2a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="146dp"
+            android:buttonTint="@android:color/holo_red_light"
+            android:text="Relative"
+            android:textColor="@android:color/white" />
+
+        <CheckBox
+            android:id="@+id/q2b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/q2a"
+            android:layout_marginStart="99dp"
+            android:buttonTint="@android:color/holo_red_light"
+            android:text="Constraint"
+            android:textColor="@android:color/white" />
+
+        <CheckBox
+            android:id="@+id/q2c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/q1c"
+            android:layout_alignTop="@+id/q2a"
+            android:buttonTint="@android:color/holo_red_light"
+            android:text="Linear"
+            android:textColor="@android:color/white" />
+
+        <CheckBox
+            android:id="@+id/q2d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/q2a"
+            android:layout_toEndOf="@+id/q7"
+            android:buttonTint="@android:color/holo_red_light"
+            android:text="absolute"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/q3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="192dp"
+            android:text="3.Android is an open source project"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium"
+            android:textColor="@android:color/holo_green_light"
+            android:textStyle="bold|italic" />
+
+        <Switch
+            android:id="@+id/q3a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="227dp"
+            android:checked="false"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textOff="False"
+            android:textOn="True"
+            android:thumbTint="@android:color/holo_red_light"
+            android:trackTint="@android:color/holo_orange_dark" />
+
+        <TextView
+            android:id="@+id/q4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="265dp"
+            android:text="4.Normal java bytecode cannot be executed in android"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium"
+            android:textColor="@android:color/holo_green_light"
+            android:textStyle="bold|italic" />
+
+        <Switch
+            android:id="@+id/q4a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="-83dp"
+            android:layout_marginTop="320dp"
+            android:layout_toStartOf="@+id/q1b"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textOff="False"
+            android:textOn="True"
+            android:thumbTint="@android:color/holo_red_light"
+            android:trackTint="@android:color/holo_orange_dark" />
+
+        <TextView
+            android:id="@+id/q5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/q4a"
+            android:text="5.What is the extension of the executable package in android?"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium"
+            android:textColor="@android:color/holo_green_light"
+            android:textStyle="bold|italic" />
+
+        <Spinner
+            android:id="@+id/q5a"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/q5"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:popupBackground="@android:color/holo_orange_dark"
+            android:verticalScrollbarPosition="right" />
+
+        <TextView
+            android:id="@+id/q6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/q5a"
+            android:text="6.Which of these is used to generate the UI?"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium"
+            android:textColor="@android:color/holo_green_light"
+            android:textStyle="bold|italic" />
+
+        <Spinner
+            android:id="@+id/q6a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/q6"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:popupBackground="@android:color/holo_orange_dark"
+            tools:verticalScrollbarPosition="right" />
+
+        <TextView
+            android:id="@+id/q7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/q6a"
+            android:text="7.Which of these is not an input field?"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium"
+            android:textColor="@android:color/holo_green_light"
+            android:textStyle="bold|italic" />
+
+        <RadioGroup
+            android:id="@+id/rg1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/q7"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/q7a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@android:color/holo_red_light"
+                android:checked="false"
+                android:text="TextView"
+                android:textColor="@android:color/white" />
+
+            <RadioButton
+                android:id="@+id/q7b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@android:color/holo_red_light"
+                android:checked="false"
+                android:text="Plain Text"
+                android:textColor="@android:color/white" />
+
+            <RadioButton
+                android:id="@+id/q7c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@android:color/holo_red_light"
+                android:checked="false"
+                android:text="Multiline Text"
+                android:textColor="@android:color/white" />
+
+            <RadioButton
+                android:id="@+id/q7d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@android:color/holo_red_light"
+                android:checked="false"
+                android:text="Password"
+                android:textColor="@android:color/white" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/rg1"
+            android:text="8.What type of kernel does android use?"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium"
+            android:textColor="@android:color/holo_green_light"
+            android:textStyle="bold|italic" />
+
+        <RadioGroup
+            android:id="@+id/rg2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/q8"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/q8a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@android:color/holo_red_light"
+                android:text="Monolithic"
+                android:textColor="@android:color/white" />
+
+            <RadioButton
+                android:id="@+id/q8b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@android:color/holo_red_light"
+                android:text="Hybrid"
+                android:textColor="@android:color/white" />
+
+            <RadioButton
+                android:id="@+id/q8c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@android:color/holo_red_light"
+                android:text="Micro"
+                android:textColor="@android:color/white" />
+
+            <RadioButton
+                android:id="@+id/q8d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@android:color/holo_red_light"
+                android:text="Others"
+                android:textColor="@android:color/white" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="33dp"
+            android:layout_marginStart="144dp"
+            android:background="@android:color/holo_orange_dark"
+            android:text="Submit"
+            android:textAllCaps="true"
+            android:textAppearance="@android:style/TextAppearance.Material.Large"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/q3a"
+            android:layout_toEndOf="@+id/q3a"
+            android:text="True"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/q3a"
+            android:text="False"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/q4a"
+            android:text="False"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/q1b"
+            android:layout_alignTop="@+id/q4a"
+            android:text="True"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textStyle="bold|italic" />
+
+    </RelativeLayout>
+</ScrollView>
